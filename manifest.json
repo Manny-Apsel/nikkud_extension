@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Nikkud",
+	"version": "1.0",
+	"description": "Add Nikud to hebrew letters",
+	"icons": {
+		"48": "icons/noun-48.png",
+		"96": "icons/noun-96.png"
+	},
+	"content_scripts": [
+		{
+			"matches": [
+				"*://*/*"
+			],
+			"js": [
+				"App.js"
+			]
+		}
+	]
+}
